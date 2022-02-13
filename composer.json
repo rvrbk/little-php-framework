@@ -1,0 +1,19 @@
+{
+    "name": "rvrbk/little-php-framework",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rik Verbeek",
+            "email": "rvrbk.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "league/uri": "^6.5",
+        "bramus/router": "~1.6",
+        "league/plates": "^3.4"
+    }
+}
