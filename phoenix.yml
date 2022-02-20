@@ -1,0 +1,13 @@
+log_table_name: migrations
+migration_dirs:
+  first: '%%ACTUAL_DIR%%/first'
+  second: '%%ACTUAL_DIR%%/second'
+environments:
+  development:
+    adapter: mysql
+    host: mariadb
+    port: 3306
+    username: root
+    password: secret
+    db_name: rvrbk
+default_environment: development
