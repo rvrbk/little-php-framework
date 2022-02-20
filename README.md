@@ -14,12 +14,3 @@ The **Little PHP framework** is a lightweight framework although being lightweig
 ## Contributing
 
 The project is available on [GitHub](https://github.com/rvrbk/little-php-framework). Submit *Pull Requests* under the feature branch ``feature/{featurename}``, we work with [GitFlow](https://nvie.com/posts/a-successful-git-branching-model/).
-
-
-## Features
-
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
