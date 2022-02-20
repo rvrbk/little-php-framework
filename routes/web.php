@@ -2,10 +2,12 @@
 
 use Bramus\Router\Router;
 
-$router = new Router();
+if (!is_cli()) {
+    $router = new Router();
 
-$router->setNamespace('\App\Controllers');
+    $router->setNamespace('\App\Controllers');
 
-$router->get('/', 'HomeController@index');
+    $router->get('/', 'HomeController@index');
 
-$router->run();
+    $router->run();
+}
