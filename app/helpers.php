@@ -24,9 +24,20 @@ function env(string $key, mixed $default = null) : string
  * @param mixed $variable
  * @return string
  */
-function dd(mixed $variable) : string
+function dd($variable) : string
 {
-    echo '<pre>'; 
+    if (!is_cli()) {
+        echo '<pre>';
+    }
+     
     var_dump($variable);
     exit;
+}
+
+/**
+ * @return boolean
+ */
+function is_cli() : bool
+{
+    return (php_sapi_name() === 'cli');
 }
