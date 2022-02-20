@@ -26,7 +26,7 @@ function env(string $key, mixed $default = null) : string
  */
 function dd(mixed $variable) : string
 {
-    echo '<pre>';
+    echo '<pre>'; 
     var_dump($variable);
     exit;
 }
