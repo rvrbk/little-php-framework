@@ -24,7 +24,7 @@ function env(string $key, mixed $default = null) : string
  * @param mixed $variable
  * @return string
  */
-function dd($variable) : string
+function dd(mixed $variable) : string
 {
     if (!is_cli()) {
         echo '<pre>';
