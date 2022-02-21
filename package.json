@@ -9,7 +9,7 @@
   "author": "Rik Verbeek",
   "license": "ISC",
   "dependencies": {
-    "laravel-mix": "^6.0.42",
+    "laravel-mix": "^6.0.43",
     "milligram": "^1.4.1"
   },
   "devDependencies": {
