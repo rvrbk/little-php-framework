@@ -13,8 +13,14 @@ The **Little PHP framework** is a lightweight framework although being lightweig
 
 ## Contributing
 
-The project is available on [GitHub](https://github.com/rvrbk/little-php-framework). We work with [GitFlow](https://nvie.com/posts/a-successful-git-branching-model/).
+The project is available on [GitHub](https://github.com/rvrbk/little-php-framework). Little PHP Framework works with [GitFlow](https://nvie.com/posts/a-successful-git-branching-model/).
 
-## Installation
+## Follow the story on [Medium](https://medium.com/@rvrbk.dev)
 
-Fork the project on GitHub
+- [Little PHP site](https://medium.com/@rvrbk.dev/a-simple-php-site-1-54e4e4be4bac)
+- [Docker](https://medium.com/@rvrbk.dev/a-simple-php-site-2-docker-c28c2b93f2e3)
+- [Composer](https://medium.com/@rvrbk.dev/a-simple-php-site-3-composer-b13f42d4ee0f)
+- [Routing](https://medium.com/@rvrbk.dev/a-simple-php-site-4-routing-8ff849df0936)
+- [Framework](https://medium.com/@rvrbk.dev/a-simple-php-site-framework-5-d9539f531f10)
+- [Templating](https://medium.com/@rvrbk.dev/a-simple-php-framework-6-templating-f0d55be0ccc9)
+- [CSS](https://medium.com/@rvrbk.dev/a-simple-php-framework-7-css-cc84ed0151ec)
